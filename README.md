@@ -1,6 +1,7 @@
 # WEB BASED INTERVIEW
 - This is the back-end of the web based interview system.In this project,pre-set questions are servered through the rails server to a user interface built with REACT.The user's reply is saved in the database and the total scores calculated on the fly.
-
+## DEMO VIDEO
+[video](https://www.loom.com/share/8207db35cd6a4e1d8275b4e70b65b806)
 ## Built With
 - [x] Database: PostgreSQL
 - [x] Programming Language: Ruby on rails
@@ -36,6 +37,7 @@ In the terminal, go to your file directory and run this command.
 $ git clone https://github.com/yusufnviiri/interview_back
 - cd interview_back
 - run bundle install
+- run rails db:migrate
 - run rails db:seed to use the default questions
 - run rails s to run the rails server.
 - make sure the [front-end user interface](https://github.com/yusufnviiri/interviewFront) is running correctly.
